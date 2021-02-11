@@ -1,0 +1,104 @@
+/*Define your font styles here*/
+@font-face {
+	font-family: Secret_Winter;
+	src: url('fonts/Secret_Winter.ttf');
+}
+
+@font-face {
+	font-family: pt-sans;
+	src: url('fonts/pt-sans/PTN57F.ttf');
+	font-weight: lighter;
+}
+
+@font-face {
+	font-family: pt-sans;
+	src: url('fonts/pt-sans/PTN77F.ttf');
+	font-weight: bold;
+}
+
+
+
+
+body {
+	background: #FFFCE9;
+
+}
+
+h1 {
+	font-family: Secret_Winter;
+	text-align: center;
+	text-decoration: underline;
+	font-size: 2.5rem;
+
+}
+
+p {
+	line-height: 1em;
+	margin-top: -1rem;
+	justify-content: center;
+}
+
+blockquote {
+	text-align: center;
+	font-family: pt-sans;
+	font-weight: lighter;
+	margin-top: -2rem;
+	margin-bottom: 2rem;
+
+}
+
+img {
+	max-width: 400px;
+
+}
+
+strong {
+	font-family: pt-sans;
+	src: url('fonts/pt-sans/PTN77F.ttf');
+	font-weight: bold;
+	letter-spacing: .05rem;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.wrapper {
+	display: flex;
+}
+
+.body-text {
+	max-width:500px;
+
+}
+
+.italic {
+	font-family: pt-sans;
+	font-weight: italic;
+}
+
+
+h2 {
+ 	font-family: Secret_Winter;
+	text-align: center;
+	text-decoration: underline;
+
+}
+
+li {
+	font-family: pt-sans;
+	font-weight: lighter;
+}
+ul {
+
+}
+
+
+ol {
+
+}
+
+/*Style your page here*/
