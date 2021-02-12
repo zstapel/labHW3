@@ -80,6 +80,11 @@ strong {
 	font-weight: italic;
 }
 
+.center {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
 
 h2 {
  	font-family: Secret_Winter;
